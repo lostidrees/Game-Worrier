@@ -1,0 +1,181 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.nav1{
+    height: 90px;
+    width: 100%;
+    background: black;
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    position: relative;
+    
+}
+.nav1 ul{
+    color: white;
+    display: flex;
+    gap: 30px;
+    list-style: none
+}
+ul li{
+    font-weight: 500;
+}
+.nav1 button{
+    padding: 8px 13px ;
+    border-radius: 300px;
+    border: none;
+    background: rgb(255, 196, 0);
+}
+.nav1 i{
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* media cuery startttttttttttttttttttt */
+@media (max-width: 950px) {
+    .nav1 ul{
+        position: absolute;
+        right: 0;
+        top: 100%;
+        background: rgb(255, 196, 0);
+        flex-direction: column;
+        width: 150px;
+        height: auto;
+        align-items: center;
+        
+
+    }
+    .nav1 button{
+        display: none;
+    }
+ .nav1 i{
+    display: block;
+}
+
+}
+
+
+
+
+
+
+
+/* media query enddddddddddddddddddddd
+ */
+
+
+
+ .main-con{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+ }
+ .hero{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../assets/assassins_creed_shadows_japan___2024_video_game-wallpaper-1366x768.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .hero h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+    padding-bottom: 30px;
+    padding: 0 30px;
+   
+    
+ }
+ .hero h1 span{
+    color:rgb(255, 196, 0) ;
+ }
+ .hero p{
+    color: white;
+    width: 45%;
+    padding-bottom: 20px;
+    padding: 0 30px;
+   
+    
+  
+ }
+ .hero button{
+    padding: 13px 40px;
+    border-radius: 300px;
+    border: none;
+    background: rgb(255, 196, 0);
+    margin-top: 20px;
+    transform: translateX(20px);
+   
+}
+
+
+
+
+
+
+
+
+
+
+/* media queryyy starttttttttttttttttttttt */
+
+@media (max-width: 890px) {
+    .hero h1{
+        font-size: 40px;
+        font-weight: 300;
+    }
+    .hero p{
+        font-size: 15px;
+        width: 60%;
+    }
+    .hero :no-button{
+        padding: 10px 30px;
+    }
+}
+
+
+@media (max-width: 650px) {
+    .hero h1{
+        font-size: 30px;
+        
+    }
+    .hero p{
+        width: 80%;
+    }
+    .hero button{
+        padding: 8px 20px;
+    }
+    
+}
+
+
+/* media query endddddddddddddddddd */
+
+
+
+
+
